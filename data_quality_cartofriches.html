@@ -15738,17 +15738,10 @@ Quels types de friches ont tendance  à ne pas avoir d'adresses? Pourquoi ? rép
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered" id="cell-id=OhPWQ0yvIH0m"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="geomsurf">geomsurf<a class="anchor-link" href="#geomsurf">¶</a></h3>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing text_cell rendered" id="cell-id=H2NpqNaopt4D"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Geomsurf-(g%C3%A9om%C3%A9trie-surfacique-en-WKT)">Geomsurf (géométrie surfacique en WKT)<a class="anchor-link" href="#Geomsurf-(g%C3%A9om%C3%A9trie-surfacique-en-WKT)">¶</a></h3><p>100% manquante dans l’export – aucun polygone de périmètre n’est fourni. Ce champ était prévu pour contenir la géométrie de la friche (polygone). Son absence totale signifie qu’on ne dispose pas des contours des sites, juste des points.<br/>
+<h3 id="geomsurf-(g%C3%A9om%C3%A9trie-surfacique-en-WKT)">geomsurf (géométrie surfacique en WKT)<a class="anchor-link" href="#geomsurf-(g%C3%A9om%C3%A9trie-surfacique-en-WKT)">¶</a></h3><p>100% manquante dans l’export – aucun polygone de périmètre n’est fourni. Ce champ était prévu pour contenir la géométrie de la friche (polygone). Son absence totale signifie qu’on ne dispose pas des contours des sites, juste des points.<br/>
 <strong>Problèmes</strong> : Sans ces polygones, difficile d’évaluer précisément la surface (d’où le champ site_surface mal rempli), d’analyser les recouvrements (avec zones naturelles, etc.) ou d’afficher l’emprise exacte sur une carte.<br/>
 <strong>Causes</strong> : Les données sources n’ont pas été livrées avec les géométries, à l’exception de potentiellement quelques observations locales. De plus, inclure des polygones de milliers de sites dans un CSV aurait été lourd – c’est peut-être volontairement exclu de cette exportation (les polygones sont peut-être seulement dans la base SIG du Cerema).<br/>
 <strong>Recommandations</strong> : Récupérer et intégrer les polygones lorsque possible. Cela peut se faire via : (a) les parcelles cadastrales si identifiées, en agrégation, (b) les contours fournis par certaines régions ou EPF, (c) du dessin manuel sur orthophoto. C’est un chantier de fond qui dépasse l’urgence, mais c’est crucial pour la suite (notamment mesurer l’avancement du zéro artificialisation nette). À court terme, on pourrait au moins fournir la surface approximative (ce qui avait été tenté via site_surface, mais avec limites vues). Si la décision est de ne pas publier de polygones pour l’instant, il faut clairement le mentionner. Peut-être que dans l’interface Cartofriches, l’emprise est visible mais pas exportée – il faudrait alors expliquer aux utilisateurs de données que seule une localisation ponctuelle est disponible dans le CSV standard.</p>
