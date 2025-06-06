@@ -101,8 +101,3 @@ Les travaux de structuration, nettoyage et audit qualité des données ont été
 © 2025 Rova Ralaimidona – Licence MIT
 """
 
-# Sauvegarde dans un fichier markdown
-readme_path = Path("/mnt/data/README_Cartofriches.md")
-readme_path.write_text(readme_content, encoding="utf-8")
-
-readme_path.name
