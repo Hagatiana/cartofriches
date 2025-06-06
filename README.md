@@ -99,5 +99,4 @@ Ce projet dérive du dépôt original `cartofriches`, publié par le CEREMA sous
 Les travaux de structuration, nettoyage et audit qualité des données ont été réalisés par Rova Ralaimidona à des fins exploratoires et pédagogiques.
 
 © 2025 Rova Ralaimidona – Licence MIT
-"""
 
