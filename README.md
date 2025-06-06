@@ -2,6 +2,8 @@
 
 **Auteur :** Rova Ralaimidona  
 **Contact :** irova@me.com  
+🧭 Le rapport complet d’audit qualité est consultable en ligne ici :  
+👉 [Lire le rapport interactif](https://hagatiana.github.io/cartofriches/data_quality_cartofriches.html)
 
 ---
 
